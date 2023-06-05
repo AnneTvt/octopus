@@ -14,3 +14,19 @@
     --neutre-100: #0000;
     --secondary-10: #BEC4FF;
 }
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 100px;
+    background-color: var(--neutre-00);
+    font-family: Poppins, sans-serif;
+    color: var(--neutre-100);
+}
