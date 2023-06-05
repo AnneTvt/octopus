@@ -1,5 +1,7 @@
 @import url(https://fonts.bunny.net/css?family=poppins:100,200,200i,400,600,700,800,900);
 
+/*style commun à toutes les pages (en gros -> Design system)*/
+
 :root{
     /*couleurs*/
     --primary: #7580F7;
@@ -33,9 +35,41 @@ body {
     color: var(--neutre-100);
 }
 
-h1 {
+h1{
     font-size: 6rem;
+    font-weight: 800;
+}
+
+h2{
     font-weight: 700;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+p{
+    font-weight: 400;
+}
+
+.p1{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.p2{
+    font-size: .75rem;
+    line-height: 18px;
+}
+
+.numero{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
 }
 
 .button{
