@@ -1,3 +1,5 @@
+@import url(https://fonts.bunny.net/css?family=poppins:100,200,200i,400,600,700,800,900);
+
 :root{
     /*couleurs*/
     --primary: #7580F7;
@@ -29,4 +31,9 @@ body {
     background-color: var(--neutre-00);
     font-family: Poppins, sans-serif;
     color: var(--neutre-100);
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
 }
