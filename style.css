@@ -26,10 +26,10 @@ html {
   *:before,
   *:after {
     box-sizing: inherit;
-  }
+}
 
 body {
-    margin: 100px;
+    margin: 0 100px;
     background-color: var(--neutre-00);
     font-family: Poppins, sans-serif;
     color: var(--neutre-100);
@@ -38,18 +38,21 @@ body {
 h1{
     font-size: 6rem;
     font-weight: 800;
+    margin: 0;
 }
 
 h2{
     font-weight: 700;
     font-size: 3rem;
     line-height: 5rem;
+    color: var(--primary);
 }
 
 h3{
     font-weight: 400;
     font-size: 2rem;
     line-height: 3rem;
+    margin: 0;
 }
 
 p{
@@ -66,13 +69,50 @@ p{
     line-height: 18px;
 }
 
+.octopus{
+    font-size: 20px;
+}
+
 .numero{
     font-weight: 600;
     font-size: 4rem;
     line-height: 6rem;
+    margin: 0;
 }
 
-.button{
+.kine{
+    color: var(--jaune-kine);
+}
+
+.intra{
+    color: var(--bleu-intra);
+}
+
+.inter{
+    color: var(--bleu-inter);
+}
+
+.logico{
+    color: var(--mauve-logico);
+}
+
+.ling{
+    color: var(--rose-linguistique);
+}
+
+.visuel{
+    color: var(--rouge-visuel);
+}
+
+.naturalist{
+    color: var(--vert-naturaliste);
+}
+
+.musique{
+    color: var(--violet-musique);
+}
+
+button{
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -80,26 +120,49 @@ p{
     padding: 1rem 2rem;
     border-radius: 100px;
     gap: .5rem;
+    font-size: 14px;
 }
 
-.secondary{
+.btn-primary{
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: var(--neutre-00);
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: var(--secondary-10);
+    transition: all 0.5sec ease-in-out;
+}
+
+.btn-primary:hover a{
+    color: var(--neutre-00);
+    transition: all 0.5sec ease-in-out;
+}
+
+.btn-secondary{
+    background-color: var(--neutre-00);
     border: 1px solid var(--primary);
 }
 
-.button a{
+.btn-secondary a{
     text-decoration: none;
     color: var(--primary);
 }
 
-.button:hover{
+.btn-secondary:hover{
     cursor: pointer;
     color: var(--secondary-10);
-    transition: all .5sec ease-in-out;
+    transition: all 0.5sec ease-in-out;
     border: 1px solid var(--secondary-10);
 }
 
-.button:hover a{
-    transition: all .5sec ease-in-out;
+.btn-secondary:hover a{
+    transition: all 0.5sec ease-in-out;
     color: var(--secondary-10);
 }
 

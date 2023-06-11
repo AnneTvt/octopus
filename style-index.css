@@ -1,2 +1,50 @@
 /*Style pour la page index*/
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+h1{
+    color:var(--neutre-00);
+}
+
+.p1{
+    color: var(--neutre-00);
+}
+
+.btn-secondary{
+    background-color: var(--primary);
+    border: 1px solid var(--neutre-00);
+}
+
+.btn-secondary a{
+    text-decoration: none;
+    color: var(--neutre-00);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    display: flex;
+    gap: 2rem;
+}
+
+div{
+    width: 50%;
+}
+
+.bg{
+    background-color: var(--primary);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+}
