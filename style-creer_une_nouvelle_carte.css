@@ -1,0 +1,30 @@
+/*voir si on met la couleur des H2 ici ou dans le design system*/
+
+h2{
+    color: #7580F7;
+}
+
+.container {
+    display: flex;
+  }
+  
+.image-column, .text-column {
+    flex: 1;
+  }
+
+.text-column {
+    flex: 1;
+    margin-left: 144px; 
+  }
+  
+.image-column img {
+    max-width: 100%;
+    height: auto;
+  }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 110px;
+}
