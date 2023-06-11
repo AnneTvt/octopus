@@ -14,16 +14,6 @@ h1{
     color: var(--neutre-00);
 }
 
-.btn-secondary{
-    background-color: var(--primary);
-    border: 1px solid var(--neutre-00);
-}
-
-.btn-secondary a{
-    text-decoration: none;
-    color: var(--neutre-00);
-}
-
 .intro{
     display: flex;
     flex-direction: column;
@@ -31,12 +21,9 @@ h1{
 }
 
 section{
-    display: flex;
-    gap: 2rem;
-}
-
-div{
-    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .bg{

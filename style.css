@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    margin: 0 100px;
+    margin: 0 100px 100px;
     background-color: var(--neutre-00);
     font-family: Poppins, sans-serif;
     color: var(--neutre-100);
@@ -166,3 +166,17 @@ button{
     color: var(--secondary-10);
 }
 
+.btn-white{
+    background-color: var(--primary);
+    border: 1px solid var(--neutre-00);
+}
+
+.btn-white a{
+    color: var(--neutre-00);
+}
+
+input{
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    width: 100%;
+}

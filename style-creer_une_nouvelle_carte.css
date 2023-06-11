@@ -1,9 +1,3 @@
-/*voir si on met la couleur des H2 ici ou dans le design system*/
-
-h2{
-    color: #7580F7;
-}
-
 .container {
     display: flex;
   }
