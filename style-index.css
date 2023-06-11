@@ -8,6 +8,7 @@ main{
 
 h1{
     color:var(--neutre-00);
+    margin-top: 10rem;
 }
 
 .p1{
@@ -34,4 +35,8 @@ section{
     top: 0; 
     left: 0;
     z-index: -1;
+}
+
+.center{
+    align-self: center;
 }
