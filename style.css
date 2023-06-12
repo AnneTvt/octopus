@@ -135,6 +135,11 @@ button{
     color: var(--neutre-00);
 }
 
+.btn-primary a{
+    color: var(--neutre-00);
+    text-decoration: none;
+}
+
 .btn-primary:hover{
     cursor: pointer;
     background-color: var(--secondary-10);
@@ -147,6 +152,10 @@ button{
     color: var(--primary);
 }
 
+.btn-secondary a{
+    color: var(--primary);
+    text-decoration: none;
+}
 
 .btn-secondary:hover{
     cursor: pointer;
@@ -159,6 +168,11 @@ button{
     background-color: var(--primary);
     border: 1px solid var(--neutre-00);
     color: var(--neutre-00);
+}
+
+.btn-white a{
+    color: var(--neutre-00);
+    text-decoration: none;
 }
 
 
