@@ -1,3 +1,40 @@
+/*barre de navigation primery a personalisé*/
+
+.navbar {
+    background-color:transparent;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 363px;
+    color: var(--primary);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 48px; /* Espacement de 100px vers la droite */
+    color: var(--primary);
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 62px;
+    color: var(--primary);
+}
+
+.btn-secondary a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/*code*/
+
 .centrer {
     display: flex;
     flex-direction: column;
@@ -33,7 +70,7 @@
 
 .additional-image {
     margin-top: 16px;
-    width: 500px;
+    width: '00px;
     height: auto;
 }
 
