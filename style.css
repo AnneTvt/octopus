@@ -130,9 +130,21 @@ button{
 }
 
 .btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 1000rem;
     background-color: var(--primary);
     border: none;
     color: var(--neutre-00);
+
+    /* width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    gap: .5rem;
+    font-size: 14px;
 }
 
 .btn-primary a{
