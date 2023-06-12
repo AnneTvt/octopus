@@ -35,8 +35,8 @@ body {
     color: var(--neutre-100);
 }
 
-/*textes*/
 
+/*textes*/
 h1{
     font-size: 6rem;
     font-weight: 800;
@@ -82,8 +82,8 @@ p{
     margin: 0;
 }
 
-/*mises en avant des textes par la couleur*/
 
+/*mises en avant des textes par la couleur*/
 .kine{
     color: var(--jaune-kine);
 }
@@ -116,8 +116,8 @@ p{
     color: var(--violet-musique);
 }
 
-/*boutons*/
 
+/*boutons*/
 button{
     width: fit-content;
     display: flex;
@@ -132,10 +132,6 @@ button{
 .btn-primary{
     background-color: var(--primary);
     border: none;
-}
-
-.btn-primary a{
-    text-decoration: none;
     color: var(--neutre-00);
 }
 
@@ -145,20 +141,12 @@ button{
     transition: all 0.5sec ease-in-out;
 }
 
-.btn-primary:hover a{
-    color: var(--neutre-00);
-    transition: all 0.5sec ease-in-out;
-}
-
 .btn-secondary{
     background-color: var(--neutre-00);
     border: 1px solid var(--primary);
-}
-
-.btn-secondary a{
-    text-decoration: none;
     color: var(--primary);
 }
+
 
 .btn-secondary:hover{
     cursor: pointer;
@@ -167,22 +155,14 @@ button{
     border: 1px solid var(--secondary-10);
 }
 
-.btn-secondary:hover a{
-    transition: all 0.5sec ease-in-out;
-    color: var(--secondary-10);
-}
-
 .btn-white{
     background-color: var(--primary);
     border: 1px solid var(--neutre-00);
-}
-
-.btn-white a{
     color: var(--neutre-00);
 }
 
-/*input*/
 
+/*input*/
 input{
     border: 1px solid var(--primary);
     border-radius: 20px;
@@ -191,4 +171,10 @@ input{
     padding: 1rem;
     font-size: 12px;
     color: var(--primary);
+}
+
+
+/*images*/
+.icon{
+    width: auto;
 }
