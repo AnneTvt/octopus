@@ -75,11 +75,21 @@ p{
     font-size: 20px;
 }
 
+.octopus-bold{
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .numero{
     font-weight: 600;
     font-size: 4rem;
     line-height: 6rem;
     margin: 0;
+}
+
+.question{
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 
