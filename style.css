@@ -94,6 +94,10 @@ p{
 
 
 /*mises en avant des textes par la couleur*/
+.primary{
+    color: var(--primary);
+}
+
 .kine{
     color: var(--jaune-kine);
 }
@@ -197,8 +201,91 @@ input{
     color: var(--primary);
 }
 
+.border-transparent{
+    border: transparent;
+}
+
 
 /*images*/
 .icon{
     width: auto;
+}
+
+.icon-s{
+    width: 30px;
+    align-self: center;
+}
+
+.icon-big{
+    height: 100px;
+}
+
+
+/*barre de navigation primery a personalisé*/
+
+.navbar {
+    background-color:transparent;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 363px;
+    color: var(--primary);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 48px; /* Espacement de 100px vers la droite */
+    color: var(--primary);
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 62px;
+    color: var(--primary);
+}
+
+.btn-secondary a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 110px;
+}
+
+/*mascotte + bulle*/
+.mascotte-bulle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.bulle{
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    border-radius: 20px 20px 0 20px;
+    width: 50rem;
+}
+
+.bg-white{
+    background-color: var(--neutre-00);
+}
+
+.mascotte{
+    margin-left: 16px;
+    width: 100px;
+    height: auto;
 }

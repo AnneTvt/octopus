@@ -1,17 +1,29 @@
 main{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 110px;
     background-color: var(--jaune-kine);
     border: 4px solid var(--jaune-kine);
     border-radius: 40px;
-    padding: 100px;
+    padding: 4rem;
     z-index: -1;
+}
+
+.intro{
+    height: 350px;
 }
 
 section{
     display: flex;
-    gap: 1rem;
+    gap: 80px;
+}
+
+.illus{
+    width: 380px;
+}
+
+audio{
+    width: 380px;
 }
 
 .bg{
@@ -23,20 +35,37 @@ section{
     left: 0;
 }
 
-article{
+.ext-link{
     background-color: var(--neutre-00);
-    border-radius: 10px;
+    border-radius: 20px;
     width: fit-content;
     height: fit-content;
-    padding: 2rem;
+    padding: 28px 60px;
     display: flex;
     flex-direction: column;
     align-content: center;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.ext-link p{
+    width: 135px;
+    text-align: center;
+}
+
+.ext-link:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
 }
 
 .ressources{
     display: flex;
-    gap: 2rem;
+    gap: 110px;
+    align-self: center;
+}
+
+.evaluation{
+    display: flex;
+    gap: 38px;
     align-self: center;
 }
 
@@ -54,8 +83,12 @@ article{
   
 .item svg {
    display: none;
-   fill: var(--secondary-10);
+   fill: var(--primary);
    border-radius: 1000000rem;
+}
+
+.item:hover{
+    cursor: pointer;
 }
   
 .item:hover svg {

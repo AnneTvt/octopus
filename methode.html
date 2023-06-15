@@ -10,19 +10,33 @@
 </head>
 
 <body>
-    <header>menu ici</header>
+    <header>
+        <div class="navbar">
+            <div class="logo">Octopus</div>
+            <div class="menu" class="p1">
+                <a href="#">Accueil</a>
+                <a href="#">Créer une carte</a>
+                <a href="#">Ton test</a>
+                <a href="#">Communauté</a>
+            </div>
+            <div>
+                <button class="btn-secondary"><a href="">Connexion</a></button>
+            </div>
+        
+        </div>
+    </header>
     <main>
         <div class="bg"></div>
         <section>
-            <img src="images/book.svg" alt="présentation méthode">
+            <img src="images/book.svg" alt="présentation méthode" class="intro">
             <div>
                 <h2>Associe 1 geste avec 1 formule de mathématiques !</h2>
                 <p class="p1">Pssst, tu peux écouter cette fiche en audio si tu le souhaites !</p>
             </div>
         </section>
 
-        <section>     
-            <img src="images/soccer.svg" alt="personne qui joue au ballon">
+        <section>
+            <img src="images/soccer.svg" alt="personne qui joue au ballon" class="illus">
             <div>
                 <h3>Associe des gestes spécifiques à chaque formule :</h3>
                 <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
@@ -45,11 +59,11 @@
                     En associant le geste à la formule, tu renforces ta mémoire kinesthésique en reliant 
                     le mouvement à l'information que tu essaies de retenir.</p>
             </div>
-            <img src="images/tutorial.svg" alt="personne qui s'entraîne devant une glace">
+            <img src="images/tutorial.svg" alt="personne qui s'entraîne devant une glace" class="illus">
         </section>
         
         <section>
-            <img src="images/teaching.svg" alt="Personne qui enseigne à d'autres">
+            <img src="images/teaching.svg" alt="Personne qui enseigne à d'autres" class="illus">
             <div>
                 <h3>Enseigne les formules à quelqu'un d'autre</h3>
                 <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
@@ -63,27 +77,30 @@
         </section>
         
         <div class="ressources">
-            <article>
+            <article class="ext-link">
                 <p class="octopus-bold">Ressource externe</p>
-                <img src="images/youtube.svg" alt="icone youtube" class="icon">
+                <img src="images/youtube.svg" alt="icone youtube" class="icon-big">
             </article>
 
-            <article>
+            <article class="ext-link">
                 <p class="octopus-bold">Ressource externe</p>
-                <img src="images/document.svg" alt="icone documents" class="icon">
+                <img src="images/document.svg" alt="icone documents" class="icon-big">
             </article>
 
-            <article>
+            <article class="ext-link">
                 <p class="octopus-bold">Ressource externe</p>
-                <img src="images/website.svg" alt="icone website" class="icon">
+                <img src="images/website.svg" alt="icone website" class="icon-big">
             </article>
         </div>
 
         <p class="question">Que penses-tu de cette méthode ? Donne ton avis pour la communauté !</p>
 
-        <img src="images/arrow.svg" alt="icone flèche vers le bas" class="icon">
+        <img src="images/arrow.svg" alt="icone flèche vers le bas" class="icon-s">
 
-        <div class="ressources">
+        <div class="evaluation">
+
+            <img src="images/thumb-down.svg" alt="cette méthode ne m'aide pas du tout">
+
             <div class="item">
                 <svg height="50" width="50">
                     <circle cx="50" cy="50" r="100" />
@@ -109,7 +126,28 @@
                     <circle cx="50" cy="50" r="100" />
                 </svg>
             </div>
+
+            <img src="images/thumb-up.svg" alt="cette méthode est parfaite pour moi !">
+        </div>
+        <div class="mascotte-bulle">
+            <div class="bulle bg-white">
+                <p class="p1 primary">Détaille si tu le souhaites ton ressenti sur la méthode, peut-être que ton 
+                    commentaire aidera quelqu’un d’autre sur la communauté ?
+                </p>
+                <input type="text" id="objectif" name="objectif" value="Je l’ai testée, ça marche bien, surtout quand... " onfocus="effacerTexteDefaut(this)" class="border-transparent">
+            </div>
+            <img src="images/Mascotte.png" alt="Image" class="mascotte" />
         </div>
     </main>
+
+    <section class="boutons">
+        <button class="btn-secondary"><a href="">Annuler</a></button>
+        <button class="btn-primary"><a href="">Suivant</a></button>
+    </section>
+
+    <!-- Lien aux pages de javascript (la bibliothèque jquery et la page js pour "créer une nouvelle carte")-->
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="creer_une_nouvelle_carte.js"></script>
+
 </body>
 </html>
