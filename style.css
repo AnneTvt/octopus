@@ -240,12 +240,13 @@ input{
     font-size: 20px;
     margin-right: 363px;
     color: var(--primary);
+    text-decoration: none;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    margin-right: 48px; /* Espacement de 100px vers la droite */
+    margin-right: 48px;
     color: var(--primary);
 }
 
@@ -253,6 +254,10 @@ input{
     text-decoration: none;
     margin-right: 62px;
     color: var(--primary);
+}
+
+.menu a:hover{
+    color: var(--secondary-10);
 }
 
 .menu-primary a{
