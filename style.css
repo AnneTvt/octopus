@@ -211,6 +211,11 @@ input{
     width: auto;
 }
 
+.icon-xs{
+    width: 24px;
+    color: var(--neutre-00);
+}
+
 .icon-s{
     width: 30px;
     align-self: center;
@@ -250,9 +255,12 @@ input{
     color: var(--primary);
 }
 
-.btn-secondary a {
-    color: var(--primary);
-    text-decoration: none;
+.menu-primary a{
+    color: var(--neutre-00);
+}
+
+.menu-primary .logo{
+    color: var(--neutre-00);
 }
 
 .boutons{
