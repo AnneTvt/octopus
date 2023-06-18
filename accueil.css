@@ -56,13 +56,12 @@
     color: white;
 }
 
-
-.h2 {
+.h2-big {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 3rem;
     line-height: 4rem;
-    }
+}
     
 .highlight {
     color: var(--neutre-00);
