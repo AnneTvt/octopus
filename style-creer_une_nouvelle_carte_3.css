@@ -1,36 +1,190 @@
-:root {
-    --back: #FFD781;;
+h2{
+    margin-top: 32px;
 }
 
-p{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*tag pour page "créer une nouvelle carte" et "communauté"*/
+.tag_gestuelle, .tag_visuelle, .tag_recherche{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color:var(--neutre-00);
+    align-items: center;
+    box-sizing: border-box;
+    padding: 7px 20px;
+    margin: 0px;
+    height: 41px;
+    border-radius: 10000px;
+    gap: 10px;
+}
+
+.icon_tag{
+    width: 25px;
+}
+
+.tag_gestuelle{
+    width: 150px;
+    background-color: #7580F7;
+}
+
+.tag_visuelle{
+    width: 136px;
+    background-color: #7580F7;
+}
+
+.input_tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 100000px;
+    color: #FFFF;
+    margin: none;
+    width: 190px;
+    background-color: #BEC4FF;
+    padding-right: 30px;
+}
+
+
+.alignement_tags{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 72px;
+    margin-bottom: 110px;
+}
+
+
+/*cards*/
+.alignement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 72px;
+    margin-bottom: 56px;
+    /*--back: #FFD781*/
+}
+
+/*Attention, CSS pour la card qui se retourne (démo)*/
+    .card {
+        background-color: #FFD781;
+        position: relative;
+        transform-style: preserve-3d;  /*Permet la transformation 3D */
+        transition: transform 0.5s ease; /*Ajoute une transition fluide*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 20px;
+        padding: 10px;
+        width: 184px;
+        height: 244px;
+        box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    .card:hover{
+        outline: 5px solid #FFD781; 
+        outline-offset: 8px;
+    }
+
+    .card.is-flipped {
+    transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+        position: absolute;
+        backface-visibility: hidden;  /*Cache l'arrière de la carte */
+    }
+
+    .card-front {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: rotateY(0deg);  /*Affiche le recto de la carte */
+    }
+
+    .card-back {
+        background-color: #FFD781;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: rotateY(180deg); /* Affiche le verso de la carte */
+        border: 20px;
+        padding: 10px;
+        width: 184px;
+        height: 244px;
+        border-radius: 20px;
+    }
+
+    .card-back:hover{
+        outline: 5px solid #FFD781; 
+        outline-offset: 8px;
+    }
+
+.cards1, .cards2, .cards3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 10px;
+    width: 184px;
+    height: 244px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
-.ligne_cards_kine{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 72px;
-    --back: #FFD781
+.cards1{
+    background-color: #FFD781;
 }
 
-.ligne_cards_visuel{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 72px;
-    --back: #ED9F9A;
+.cards1:hover{
+    outline: 5px solid #FFD781; 
+    outline-offset: 8px;
 }
 
-.emoji_main{
+.cards2{
+    background-color: #ED9F9A;
+}
+
+.cards2:hover{
+    outline: 5px solid #ED9F9A; 
+    outline-offset: 8px;
+}
+
+.cards3{
+    background-color: #B9DCE1;
+}
+
+.cards3:hover{
+    outline: 5px solid #B9DCE1; 
+    outline-offset: 8px;
+}
+
+.illu-card{
+    width: 164px;
+    height: 170px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.emoji{
     align-self: center;
 }
 
-.cards_kine{
+.ligne_cards {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -39,27 +193,35 @@ p{
     gap: 96px;
 }
 
-.card.kine{
-    background:#FFD781;
-}
-
-.cards{
+/*partie du bas*/
+.centrer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 20px;
-    padding: 10px;
-    width: 184px;
-    height: 244px;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    background-color: var(--back);
+    gap: 32px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+  }
+
+.bloc_violet{
+    background: #7580F7;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 88px;
+    gap: 13px;
+    width: 1128px;
+    height: auto;
+    border-radius: 58px;
 }
 
-.illu-card{
-    width: 164px;
-    height: 224px;
-    padding-left: 12px;
-    padding-right: 12px;
+.boutons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 110px;
 }
+
+
