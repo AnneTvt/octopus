@@ -66,6 +66,12 @@ p{
     line-height: 1.5rem;
 }
 
+.p1-bold{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 .p2{
     font-size: .75rem;
     line-height: 18px;
@@ -229,3 +235,6 @@ input{
     padding-left: 16px;
     padding-right: 16px;
 }
+
+
+

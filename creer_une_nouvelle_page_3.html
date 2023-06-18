@@ -5,44 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-creer_une_nouvelle_carte_3.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="barre-nav.css">
+    <script src="essaie_card.js"></script>
     <title>Octopus</title>
 </head>
 
-    <header>menu ici</header>
+    <header>
+        <div class="navbar">
+            <div class="logo">Octopus</div>
+                <div class="menu" class="p1">
+                <a href="#">Accueil</a>
+                <a href="#">Créer une carte</a>
+                <a href="#">Ton test</a>
+                <a href="#">Communauté</a>
+                </div>
+                <div>
+                <button class="btn-secondary"><a href="">Connexion</a></button>
+                </div>
+        </div>
+    </header>
 
     <main>
 
-        <!-- ici mettre l'octopus -->
-
         <body>
+
             <h2>Créer une nouvelle carte</h2>
 
-            <!-- ici mettre les tags -> comment on fait ça ? -->
+            <!--Mascotte-->
+            <section class="Mascotte_et_bulle">
+
+                <article class="bulle_Mascotte">
+                <p class="p1" >Il y a plein de méthodes différentes, plus ou moins adaptées à ton profil ! 
+                    Tu peux tester celles qui te paraissent les plus intéressantes pour cette matière, 
+                    et les ajouter à cette carte. Il peut y en avoir plusieurs !</p>
+                </article>
+                <img class="Mascotte" src="images/Mascotte.png" alt="Mascotte Octopus">
+        
+            </section>
+
+            <!--tags-->
+            <section class="alignement_tags">
+
+                <section class="tag_gestuelle">
+                    <p class="p1-bold">gestuelle</p>
+                    <img class="icon_tag" src="images/croix.svg" alt="icon croix">
+                </section>
+
+                <section class="tag_visuelle">
+                    <p class="p1-bold">visuelle</p>
+                    <img class="icon_tag" src="images/croix.svg" alt="icon croix">
+                </section>
+
+                <section tag_recherche>
+                    <input type="text" class="input_tag" placeholder="Entre ton texte">
+                </section>
+
+            </section>
+
             
             <!-- Ligne des cards kine-->
-            <section class="ligne_cards_kine">
+            <section class="alignement">
 
-                <img class="emoji_main" src="images/emoji_main.png" alt="illustration kine">
+                <img class="emoji" src="images/emoji_main.png" alt="illustration kine">
 
-                  <section class="cards_kine">
+                  <section class="ligne_cards">
 
-                    <section class="cards">
+                    <!--Attention card qui se retourne pour la démo lundi-->
+        
+                <div class="card-container">
+                    <div class="card" onclick="flipCard()">
+                      <div class="card-front">
                         <img class="illu-card" src="images/illustration_ampoule.svg" alt="illustar des petites cards">
-                        <p>1 geste = 1 formule</p>
+                        <p class="p1-bold">1 geste = 1 formule</p>
+                      </div>
+                      <a class="card-back" href="methode.html">
+                        <p>Tu pourrais effectuer un geste particulier chaque fois que vous apprenez un nouveau mot ou une nouvelle...</p>
+                    </a>
+                    </div>
+                  </div>
+
+                    <section class="cards1">
+                        <img class="illu-card" src="images/illustration_book.svg" alt="illustar des petites cards">
+                        <p class="p1-bold">Jouer au professeur</p>
                     </section>
 
-                    <section class="cards">
-                        <p>Tu pourrais effectuer un geste particulier chaque fois que vous apprenez un nouveau mot ou une nouvelle</p>
-                    </section>
-
-                    <section class="cards">
+                    <section class="cards1">
                         <img class="illu-card" src="images/illustration_cuisine.svg" alt="illustar des petites cards">
-                        <p>Jouer des scénettes</p>
+                        <p class="p1-bold">Jouer des scénettes</p>
                     </section>
 
-                    <section class="cards">
+                    <section class="cards1">
                         <img class="illu-card" src="images/illustration_designer.svg" alt="illustar des petites cards">
-                        <p>Pauses énergiques</p>
+                        <p class="p1-bold">Pauses énergiques</p>
                     </section>
 
                   </section>
@@ -51,29 +105,30 @@
 
 
             <!-- Ligne des cards visuel-->
-            <section class="ligne_cards_visuel">
+            <section class="alignement">
 
-                <img class="emoji_oeil" src="images/emoji_oeil.png" alt="illustration oeil">
+                <img class="emoji" src="images/emoji_oeil.png" alt="illustration oeil">
 
-                    <section class="cards_visuel">
+                    <section class="ligne_cards">
 
-                        <section class="cards">
+                        <section class="cards2">
                             <img class="illu-card" src="images/illustration_ampoule.svg" alt="illustar des petites cards">
-                            <p>1 geste = 1 formule</p>
+                            <p class="p1-bold">Cartes mentales</p>
                         </section>
 
-                        <section class="cards">
-                            <p>Tu pourrais effectuer un geste particulier chaque fois que vous apprenez un nouveau mot ou une nouvelle</p>
+                        <section class="cards2">
+                            <img class="illu-card" src="images/illustration_book.svg" alt="illustar des petites cards">
+                            <p class="p1-bold">1 info = 1 schéma</p>
                         </section>
 
-                        <section class="cards">
+                        <section class="cards2">
                             <img class="illu-card" src="images/illustration_cuisine.svg" alt="illustar des petites cards">
-                            <p>Jouer des scénettes</p>
+                            <p class="p1-bold">Dessin et SVT</p>
                         </section>
 
-                        <section class="cards">
+                        <section class="cards2">
                             <img class="illu-card" src="images/illustration_designer.svg" alt="illustar des petites cards">
-                            <p>Pauses énergiques</p>
+                            <p class="p1-bold">Falsh cards</p>
                         </section>
 
                     </section>
@@ -81,7 +136,62 @@
                  
 
             </section>
-    
+
+
+            <!-- Ligne des cards intra-->
+            <section class="alignement">
+
+                <img class="emoji" src="images/emoji_intra.png" alt="illustration oeil">
+
+                    <section class="ligne_cards">
+
+                        <section class="cards3">
+                            <img class="illu-card" src="images/illustration_ampoule.svg" alt="illustar des petites cards">
+                            <p class="p1-bold">Challenge toi</p>
+                        </section>
+
+                        <section class="cards3">
+                            <img class="illu-card" src="images/illustration_book.svg" alt="illustar des petites cards">
+                            <p class="p1-bold">Prend le temps</p>
+                        </section>
+
+                        <section class="cards3">
+                            <img class="illu-card" src="images/illustration_cuisine.svg" alt="illustar des petites cards">
+                            <p class="p1-bold">1 concept = ...</p>
+                        </section>
+
+                        <section class="cards3">
+                            <img class="illu-card" src="images/illustration_designer.svg" alt="illustar des petites cards">
+                            <p class="p1-bold">Dans le calme...</p>
+                        </section>
+
+                    </section>
+
+                 
+
+            </section>
+
+
+            <section class="centrer">
+                <button class="btn-primary"><a href="">Voir plus de méthodes +</a></button>
+
+                <section class="bloc_violet">
+                    <p class="question">Tu ne trouves pas de méthode adaptée ? Tu veux tester autre chose ? La communauté est là pour toi !</p>
+                    <button class="btn-white"><a href="">Accéder à la communauté</a></button>
+                </section>
+            </section>
+
+            <section class="boutons">
+                <button class="btn-secondary"><a href="">Précédent</a></button>
+                <button class="btn-primary"><a href="">Accueil</a></button>
+            </section>
+                
+            <!--JS pour que les cartes se retournent-->
+            <script src="tourner_card.js">
+                // Votre code JavaScript ici
+                console.log('Hello, JavaScript!');
+              </script>
+
         </body>
     </main>
 
