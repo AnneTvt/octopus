@@ -29,7 +29,8 @@ section{
     gap: 1rem;
 }
 
-.bg{
+/*fond violet pour le haut*/
+.bg{ 
     background-color: var(--primary);
     width: 100vw;
     height: 100vh;

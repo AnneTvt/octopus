@@ -26,14 +26,14 @@ audio{
     width: 380px;
 }
 
-.bg{
+/*.bg{
     background-color: blue;
     height: 50rem;
     z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
-}
+}*/
 
 .ext-link{
     background-color: var(--neutre-00);
