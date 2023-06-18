@@ -28,10 +28,10 @@
     color: var(--primary);
 }
 
-.btn-secondary a {
+/*.btn-secondary a {
     color: var(--primary);
     text-decoration: none;
-}
+}*/
 
 /*code*/
 
@@ -74,11 +74,11 @@
     height: auto;
 }
 
-.btn-primary{
+/*.btn-primary{
     background-color: var(--primary);
     border: none;
     color: var(--neutre-00);
-}
+}*/
 
 .boutons{
     display: flex;
