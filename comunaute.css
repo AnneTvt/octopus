@@ -1,0 +1,21 @@
+.mascotte{
+    width: 148px;
+    height: auto;
+  /*  position: absolute;
+    right: 0%;
+}*/
+
+}
+
+.help {
+    display: flex;
+}
+
+.cards {
+display: flex;
+fill: aqua;
+height: 244px;
+width: 184px;
+border-radius: 20px;
+
+}
