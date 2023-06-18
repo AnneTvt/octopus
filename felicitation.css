@@ -1,0 +1,105 @@
+/*barre de navigation primery a personalisé*/
+
+.navbar {
+    background-color:transparent;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 363px;
+    color: var(--primary);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 48px; /* Espacement de 100px vers la droite */
+    color: var(--primary);
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 62px;
+    color: var(--primary);
+}
+
+.btn-secondary a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/*code*/
+
+.container {
+    display: flex;
+}
+
+
+.centrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.rectangle {
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    border-top-left-radius: 20px; /* Coin supérieur gauche */
+    border-top-right-radius: 20px; /* Coin supérieur droit */
+    border-bottom-right-radius: 0px; /* Coin inférieur droit */
+    border-bottom-left-radius: 20px; /* Coin inférieur gauche */
+}
+
+
+.btn-primary{
+    background-color: var(--primary);
+    border: none;
+    color: var(--neutre-00);
+}
+
+.boutons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 110px;
+}
+
+.blue-rectangle {
+    width: 800px;
+    height: 200px;
+    background-color:var(--primary);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 10px;
+
+  }
+
+.question {
+    color: var(--neutre-00);
+    text-align: center;
+}
+
+
+.image {
+    margin-left: 16px;
+    width: 100px; /* Ajuste la taille de l'image */
+    height: auto;
+}
