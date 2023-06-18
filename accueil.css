@@ -1,9 +1,8 @@
 /*code*/
 
 .container {
-    display: flex;
+  display: flex;
 }
-
 /* ma méthode en cours*/
 .blue-rectangle {
   width: 875px;
@@ -13,168 +12,232 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  text-decoration: none;
+  padding: 0px;  
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
-
 .p1 {
     color: var(--neutre-00);
 }
-
-.h2-big {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 4rem;
-}
-    
+.h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  }
+  
 .highlight {
-    color: var(--neutre-00);
+  color: var(--neutre-00);
 }
-
 .highlight2 {
-    color: var(--seconday);
+  color: var(--seconday);
 }
-
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 20px;
+  padding: 10px;
+  width: 184px;
+  height: 244px;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: var(--back);
+  margin-right: 88px;
+  background:#FFD781
+}
+.illu-card{
+  width: 164px;
+  height: 224px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 /* mon test */
 .blue-rectangle2 {
-    width: 300px;
-    height: 300px;
-    background-color:var(--seconday);
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 80px ;
+  width: 300px;
+  height: 300px;
+  background-color:var(--seconday);
+  border-radius: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px ;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
-
-
 .additional-image {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
-
 .question{
     color: var(--neutre-00);
     text-align: center;
     margin: 0;
     margin-bottom: 20px ;
 }
-
 /* card francais  */
 .rectangle2 {
-    width: 422px;
-    height: auto;
-    padding: 40px;
-    border: 8px solid var(--primary);
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    overflow: hidden;
-  }
-  
-  .inner-rectangle {
-    width: 80%;
-    height: auto;
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 80px;
-    padding: 20px;
-  }
-  
-  .carousel-card-wrapper {
-    overflow-x: scroll;
-    white-space: nowrap;
-  }
-  
-  .carousel-card {
-    display: inline-flex;
-    gap: 20px;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .cards2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    width: 104px;
-    height: 146px;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    background-color: transparent;
-    background: #FFD781;
-  }
-  
-  .illu-card2 {
-    width: 82px;
-    height: 112px;
-
-  }
-   
-  
- .carousel-container {
-    position: relative;
-  }
-  
- .carousel-card-wrapper {
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
-  .carousel-card {
-    display: flex;
-    gap: 20px;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-100%);
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: none;
-    font-size: 24px;
-    color: #000;
-    cursor: pointer;
-  }
-  
-  .prev-button {
-    left: 100px;
-  }
-  
-  .next-button {
-    right: 100px;
-  }
-
-  .cards2 p1 {
-    font-size: 10px;
-  }
-
-  /* mes cartes oragnisation */
-.orga-ligne {
-    display: flex;
-    gap: 32px;
-    margin-bottom: 32px;
-
+  width: 422px;
+  height: auto;
+  padding: 40px;
+  border: 8px solid var(--primary);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
-/* mon la communauté */
-.blue-rectangle-strock {
-    width: 300px;
-    height: 500px;
-    background-color:transparent;
-    border: 4px solid var(--seconday);
+.inner-rectangle {
+  width: 80%;
+  height: auto;
+  background-color: transparent;
+  border: 2px solid blue;
+  border-radius: 80px;
+  padding: 20px;
+}
 
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carousel-card-wrapper {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.carousel-card {
+  display: inline-flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.cards2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 104px;
+  height: 146px;
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: transparent;
+  background: #FFD781;
+}
+
+.illu-card2 {
+  width: 82px;
+  height: 112px;
+}
+ 
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-card-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.carousel-card {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 100px;
+}
+
+.next-button {
+  right: 100px;
+}
+.cards2 p1 {
+  font-size: 10px;
+}
+/* mes cartes oragnisation */
+.orga-ligne {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+/* la communauté */
+.blue-rectangle3 {
+width: 300px;
+height: 500px;
+background-color:transparent;
+border-radius: 20px; 
+border: 4px solid var(--primary);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 80px ;
+padding: 20px;
+box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+
+}
+.question1{
+font-weight: 500;
+font-size: 2rem;
+text-align: center;
+}
+/*ajouter une carte*/
+.blue-rectangle4 {
+width: 280px;
+height: 300px;
+background-color:var(--primary);
+border-radius: 20px; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 80px ;
+box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+.question{
+font-weight: 400;
+font-size: 2rem;
+color: var(--neutre-00);
+text-align: center;
+margin: 10px;
+margin-bottom: 20px ;
+}
+.cards-ajoute {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+width: 124px;
+height: 146px;
+box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+background-color: transparent;
+background:transparent;
+border: 6px solid var(--primary);
+}  
+.illu-plus {
+width: 60px;
+height: 60px;
+}
+.cards-ajoute p1 {
+color: var(--primary);
+text-align: center;
+font-weight: 500;
+font-size: 0.5rem;
 }

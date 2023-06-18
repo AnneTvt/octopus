@@ -201,6 +201,15 @@ p{
 }
 
 .btn-white{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    gap: .5rem;
+    font-size: 14px;
+    text-decoration: none;
     background-color: var(--primary);
     border: 1px solid var(--neutre-00);
     color: var(--neutre-00);
