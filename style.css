@@ -35,6 +35,11 @@ body {
     color: var(--neutre-100);
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*textes*/
 h1{
@@ -134,6 +139,10 @@ p{
 
 .musique{
     color: var(--violet-musique);
+}
+
+.black{
+    color: var(--neutre-100);
 }
 
 
@@ -251,7 +260,6 @@ input{
 
 
 /*barre de navigation primery a personalisé*/
-
 .navbar {
     background-color:transparent;
     height: 150px;
@@ -299,7 +307,8 @@ input{
     margin-bottom: 110px;
 }
 
-/*mascotte + bulle*/
+
+/*mascotte et bulle*/
 .mascotte-bulle{
     display: flex;
     align-items: center;
@@ -326,7 +335,8 @@ input{
     width: 100px;
     height: auto;
 }
-/*Mascotte*/
+
+/*Mascotte
 .Mascotte_et_bulle{
     display: flex;
     flex-direction: row;
@@ -351,7 +361,7 @@ input{
 
     padding-left: 16px;
     padding-right: 16px;
-}
+}*/
 
 
 

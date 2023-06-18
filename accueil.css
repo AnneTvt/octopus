@@ -1,6 +1,5 @@
 /*barre de navigation primery a personalisé*/
-
-.navbar {
+/*.navbar {
     background-color:transparent;
     height: 150px;
     display: flex;
@@ -18,7 +17,7 @@
 .menu {
     display: flex;
     align-items: center;
-    margin-right: 48px; /* Espacement de 100px vers la droite */
+    margin-right: 48px;
     color: var(--primary);
 }
 
@@ -31,7 +30,7 @@
 .btn-secondary a {
     color: var(--primary);
     text-decoration: none;
-}
+}*/
 
 /*code*/
 
@@ -42,20 +41,21 @@
 /* ma méthode en cours*/
 
 .blue-rectangle {
-    width: 875px;
-    height: 400px;
-    background-color:var(--primary);
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+  width: 875px;
+  height: 400px;
+  background-color:var(--primary);
+  border-radius: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-decoration: none;
 }
-
 
 .p1 {
     color: white;
 }
+
 
 .h2 {
     margin-bottom: 20px;
