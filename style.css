@@ -66,6 +66,12 @@ p{
     line-height: 1.5rem;
 }
 
+.p1-bold{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 .p2{
     font-size: .75rem;
     line-height: 18px;
@@ -214,3 +220,33 @@ input{
 .icon{
     width: auto;
 }
+
+/*Mascotte*/
+.Mascotte_et_bulle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    width: auto;
+    height: 175px;
+}
+
+.bulle_Mascotte{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    gap: 16px;
+    max-width: 671px;
+    max-height: 112px;
+
+
+    border: 3px solid #7580F7;
+    border-radius: 20px 20px 0px 20px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+

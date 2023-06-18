@@ -1,0 +1,125 @@
+/*barre de navigation primery a personalisé*/
+
+.navbar {
+    background-color:transparent;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 363px;
+    color: var(--primary);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 48px; /* Espacement de 100px vers la droite */
+    color: var(--primary);
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 62px;
+    color: var(--primary);
+}
+
+.btn-secondary a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/*code*/
+
+.container {
+    display: flex;
+
+}
+
+.blue-rectangle {
+    width: 700px;
+    height: 300px;
+    background-color:var(--primary);
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+
+.p1 {
+    color: white;
+}
+
+.h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    }
+    
+.highlight {
+    color: var(--neutre-00);
+}
+
+.highlight2 {
+    color: var(--seconday);
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    padding: 10px;
+    width: 184px;
+    height: 244px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: var(--back);
+    margin-right: 88px;
+    background:#FFD781
+}
+
+.illu-card{
+    width: 164px;
+    height: 224px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.blue-rectangle2 {
+    width: 300px;
+    height: 300px;
+    background-color:var(--seconday);
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 116px ;
+}
+
+
+.additional-image {
+    width: 200px;
+    height: auto;
+}
+
+.question{
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--neutre-00);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px ;
+}
+
+

@@ -19,3 +19,43 @@ width: 184px;
 border-radius: 20px;
 
 }
+
+.block{
+border: 70px;
+border-color: rgb(0, 0, 0);
+width: 1071px;
+height: 212px;
+  /* background-color: blue;*/
+}
+
+.ecart1{
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--primary);
+}
+
+.ecart2{
+    display: flex;
+
+}
+
+.bigblock{
+    display: flex;
+}
+
+.testm{
+    width: 189px;
+    height: 244px;
+}
+
+.jaunee{
+    color: var(--jaune-kine);
+}
+.bleuu{
+    color: var(--bleu-inter);
+}
+.rougee{
+    color: var(--rouge-visuel);
+}

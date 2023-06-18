@@ -8,11 +8,12 @@
 
 img{
   width: 436px;
+  height: 304px;
 }
 
 .text-column {
     flex: 1;
-    margin-left: 144px; 
+    margin-left: 134px; 
   }
   
 .image-column img {
