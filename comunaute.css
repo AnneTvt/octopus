@@ -10,3 +10,148 @@ width: 184px;
 border-radius: 20px;
 
 }
+
+.block{
+border: 70px;
+border-color: rgb(0, 0, 0);
+width: 1071px;
+height: 212px;
+  /* background-color: blue;*/
+}
+
+.ecart1{
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--primary);
+}
+
+.ecart2{
+    display: flex;
+
+}
+
+.bigblock{
+    display: flex;
+}
+
+.testm{
+    width: 189px;
+    height: 244px;
+}
+
+.jaunee{
+    color: var(--jaune-kine);
+}
+.primaire{
+    color: var(--primary);
+}
+.mauve{
+    color: var(--mauve-logico);
+    padding: none;
+    gap: none;
+}
+.rougee{
+    color: var(--rouge-visuel);
+}
+
+.violett{
+    color: var(--violet-musique);
+}
+
+.bleuatre{
+    color: var(--bleu-intra);
+}
+
+.alignement{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    gap: .5rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.alignementhorizontale3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.alignementhorizontale{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.alignementhorizontale2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rangement{
+    display: flex;
+    flex-direction: row;
+    gap: 49px;
+    justify-content: center;
+    align-content:  center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+   
+}
+
+  /*  margin-top: 72px;
+margin-bottom: 110px;
+}*/
+
+.case1{
+
+    max-width: 1071px;
+    max-height: 212px;
+
+    border-radius: 20px 20px 20px 20px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    box-shadow: 0px 5px 10px rgb(179, 179, 179);
+}
+
+.filtre {
+    display: flex;
+    justify-content: space-between;
+   padding-right: 653px;
+  }
+
+  .alignement_tags2{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.ligne_cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0px;
+    gap: 48px;
+}
+
+.grisi{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.33);
+}
+
+.suite{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
